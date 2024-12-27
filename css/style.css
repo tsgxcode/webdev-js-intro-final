@@ -1,0 +1,66 @@
+@import url(./reset.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    margin: auto;
+    width: 90dvw;
+    max-width: 400px;
+}
+
+.game-title {
+    padding: 1rem;
+}
+
+.game-message {
+    text-align: center;
+    margin: 1rem;
+}
+
+.number-input {
+    background-color: white;
+    margin: .25rem .5rem;
+    text-align: center;
+    width: 35%;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    width: 90%;
+}
+
+.text {
+    padding: .5rem 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+.btn:disabled {
+    opacity: .3;
+}
